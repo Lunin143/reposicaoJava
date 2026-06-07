@@ -40,7 +40,7 @@ void main() {
                     if (produtos.isEmpty()) {
                         System.out.println("Nenhum produto cadastrado.");
                     } else {
-                        System.out.println("\n   PRODUTOS CADASTRADOS   ");
+                        System.out.println("   PRODUTOS CADASTRADOS");
 
                         for (Produto p : produtos) {
                             System.out.println(p);

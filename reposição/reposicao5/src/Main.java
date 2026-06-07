@@ -21,7 +21,7 @@ void main() {
             pessoas.add(new Pessoa(nome, idade));
         }
 
-        System.out.println("    PARTICIPANTES CADASTRADOS    ");
+        System.out.println("    PARTICIPANTES CADASTRADOS");
 
         for (int i = 0; i < pessoas.size(); i++) {
             System.out.println((i + 1) + "- " + pessoas.get(i));
